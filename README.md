@@ -10,4 +10,4 @@
         android:layout_height="50dp" />
   ```
 ##### 3.截图如下： 
-<img src="https://github.com/docwei2050/clockText/blob/master/screen/IMG_20181102_212223.png"  />
+<img src="https://github.com/docwei2050/clockText/blob/master/screen/IMG_20181102_212223.png" width=540 height=437.5  />
