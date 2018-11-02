@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical">
+    <com.example.git.clocksample.ClockTextView
+        android:id="@+id/tv1"
+        android:layout_width="50dp"
+        app:clock_bg_color="@color/colorAccent"
+        app:clock_text_color="@color/colorWhite"
+        app:clock_text_size="28sp"
+        android:layout_height="50dp" />
+    <com.example.git.clocksample.ClockTextView
+        android:id="@+id/tv2"
+        android:layout_marginTop="10dp"
+        app:clock_text_color="@color/colorWhite"
+        app:clock_text_size="28sp"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <com.example.git.clocksample.ClockTextView
+        android:id="@+id/tv3"
+        android:layout_width="50dp"
+        app:clock_bg_color="@color/colorGreen"
+        app:clock_text_size="28sp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+    <com.example.git.clocksample.ClockTextView
+        android:id="@+id/tv4"
+        app:clock_bg_color="@color/colorblue"
+        app:clock_text_color="@color/colorWhite"
+        app:clock_text_size="28sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+</LinearLayout>

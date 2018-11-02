@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 时钟控件-->
+    <declare-styleable name="ClockTextView">
+        <attr name="clock_text_size" format="dimension"/>
+        <attr name="clock_bg_color" format="color"/>
+        <attr name="clock_text_color" format="color"/>
+        <attr name="clock_text1" format="string"/>
+        <attr name="clock_text2" format="string"/>
+    </declare-styleable>
+
+</resources>
