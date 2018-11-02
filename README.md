@@ -6,8 +6,15 @@
         app:clock_bg_color="@color/colorAccent"
         app:clock_text_color="@color/colorWhite"
         app:clock_text_size="28sp"
-        android:layout_height="50dp" />```
-##### 截图如下
+        android:layout_height="50dp" />
+    ``` 
+        
+        
+        
+        
+        
+    
+###### 截图如下
 
 <img src="https://github.com/docwei2050/clockText/blob/master/screen/Screenshot_20181102-210034.png" width=540 height=960 />  
 
