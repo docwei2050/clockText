@@ -1,4 +1,4 @@
-###### 1.处理两行的逻辑稍复杂；2.文本的size跟随文本多少自动调整size。
+##### 1.处理两行的逻辑稍复杂；2.文本的size跟随文本多少自动调整size。
 ##### 2.使用：
   ```
    <com.example.git.clocksample.ClockTextView
