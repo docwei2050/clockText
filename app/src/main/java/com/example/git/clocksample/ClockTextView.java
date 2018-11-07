@@ -113,6 +113,7 @@ public class ClockTextView extends View {
         //2.绘制文本
         if (TextUtils.isEmpty(mText2)) {
             //单行的情形
+            mTextPaint.setTextSize(mTextSize);
 
             //如果文本内容的宽度大于控件的宽度，需要调整字体的size
             mTextPaint.setTextSize(getSuitableSingleSize(mText1, mTextSize));
@@ -122,6 +123,8 @@ public class ClockTextView extends View {
             canvas.drawText(mText1, (mWidth - textWidth) / 2, baseLine, mTextPaint);
 
         } else {
+            mTextPaint.setTextSize(mTextSize);
+
             //两行显示的情形
             mTextPaint.setTextSize(getSuitableTwoLineSize(mText1, mTextSize, false));
             //获取文本的宽度
